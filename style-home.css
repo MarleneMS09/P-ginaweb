@@ -1,0 +1,318 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(white);
+}
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+    margin: 0 0 30px;
+}
+#banner {
+width: 100%;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;   
+}
+.lista {
+display : flex;
+flex-flow: row nowrap;
+align-items: flex-end;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.principal{
+    background: gainsboro;
+    padding: 20px;
+}
+.titulo-centralizado{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+    text-indent: 0cm;
+
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+    text-align: left;
+    
+}
+.items{
+    font-style: italic;
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold; 
+    }
+.items:before{
+content: "✺";
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+    text-align: center;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+ table {
+    margin: 40px 40px;
+ }
+ thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+ }
+td, th{
+border: 1px solid #000000;
+padding: 8px 15px;
+}
+
+/* aqui inicia el css para nuestra home*/ 
+.banner {
+    width: 100%;
+}
+.principal {
+padding: 3em 0;
+background: #FEFEFE;
+width: 940px;
+margin: 0 auto;    
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left; 
+    font-family: 'Patrick Hand', cursive;
+}
+.principal p {
+margin: 0 0 1em;
+}
+.principal strong {
+font-weight: bold; 
+}
+.principal em {
+font-style: italic;
+}
+.utensilios{
+width: 120px;
+float: left;
+margin: 0 20px 20px 0;
+}
+.encabezado-diferenciales {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 30px;
+    color:black;                                                                          
+    float: center;
+    font-family: 'Pacifico', cursive;
+}
+.YouTube {
+width: "115px";
+margin: 0.2em auto;
+float: 0 0 22px;
+text-align: center;
+background: linear-gradient(white);
+}
+.diferenciales {
+width: 100%;   
+display: inlsine-block;
+vertical-align: center;
+padding: 3em 0;
+background: linear-gradient(#FEFEFE, #888888);
+}
+.contenido-diferenciales {
+width: 640px; 
+margin: 0 auto;
+}
+.diferenciales-descripcion {
+text-align: right;
+font-family: 'Montserrat', sans-serif; }
+
+.mapa {
+padding: 6em 0;
+background: linear-gradient(#FEFEFE);
+
+}
+.mapa p{
+margin: 0 0 2em;  
+text-align: center;
+}
+.mapa-contenido {
+width: 980x; 
+margin: 0 auto;
+}
+.imagenDiferencial {
+    width: 320px;
+    float: center;
+    margin: 0 10px 10px 0;
+    box-shadow: 10px 10px 10px #000000;
+   
+}
+.imagenDiferencial:hover {
+opacity: 0.4;  
+transition: 400ms ;
+}
+@media screen and (max-width: 480px) {
+h1 {
+text-align: center;    
+}
+nav {
+position: static;
+}
+.caja, principal,.mapa-contenido,.contenido-diferenciales,.YouTube{
+    width: auto ;
+}
+.lista-diferenciales, .imagenDiferencial {
+width: 100%   
+}
+}
+
+
+
+
+/* .titulo-principal:first-letter{
+font-weight: bold;
+}
+.titulo-principal:before {
+content: "["
+}
+.titulo-principal:after {
+    content: "]"
+    }
+p:first-line{
+font-weight: italic;*/
